@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/static/css/main.12bed646.css",
+    "main.js": "/static/js/main.afc3295a.js",
+    "static/media/shrooms.jpg": "/static/media/shrooms.129bb3a12fc0c5d9051f.jpg",
+    "static/media/smalls.jpg": "/static/media/smalls.3f87cd4e6cdcc77a319b.jpg",
+    "static/media/flowertestpic.jpg": "/static/media/flowertestpic.5d0e21cb1f717c1e96d1.jpg",
+    "static/media/concentrates.jpeg": "/static/media/concentrates.27abd27a3cc9112cacad.jpeg",
+    "static/media/shake.jpg": "/static/media/shake.1d1d4bd510328bd0dd61.jpg",
+    "static/media/accessories.jpg": "/static/media/accessories.4930e69e89c41752f2ec.jpg",
+    "static/media/edibles.jpg": "/static/media/edibles.b1dd1c2322b3d9617c37.jpg",
+    "index.html": "/index.html",
+    "main.12bed646.css.map": "/static/css/main.12bed646.css.map",
+    "main.afc3295a.js.map": "/static/js/main.afc3295a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.12bed646.css",
+    "static/js/main.afc3295a.js"
+  ]
+}
