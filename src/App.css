@@ -1,6 +1,6 @@
 body{
-  background-image: linear-gradient(to right, #004ff9 , black);
-  color: #63ff73;
+  background-image: url(./images/smoke.jpg);
+  color: white;
 }
 
 .cards__container{
@@ -11,4 +11,5 @@ body{
 
 .heading{
   text-align: center;
+  color: white;
 }

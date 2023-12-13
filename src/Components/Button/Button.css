@@ -16,15 +16,15 @@
 }
 
 .btn.add {
-  background-color: var(--primary-color);
+  background-color: #7d8594;
 }
 
 .btn.remove {
-  background-color: #63ff73;
+  background-color: #81899a;
 }
 
 .btn.checkout {
-  background-color: rgb(38, 121, 38);
+  background-color: #383c3f;
   inline-size: 150px;
   color: #ffff;
   font-size: 14px;
@@ -36,22 +36,22 @@
 }
 
 .btn.add:hover {
-  background-color: #63ff73;
+  background-color: #aeb3c4;
 }
 
 .btn.add:active {
-  background-color: #ad9a1c;
+  background-color: #dee0e5;
 }
 
 .btn.remove:hover {
-  background-color: rgb(209, 83, 61);
+  background-color: #aeb3c4;
 }
 .btn.remove:active {
-  background-color: rgb(185, 73, 54);
+  background-color: #dee0e5;
 }
 
 .btn.checkout:hover {
-  background-color: rgb(41, 141, 41);
+  background-color: #aeb3c4;
 }
 .btn.checkout:active {
   background-color: rgb(30, 93, 41);
