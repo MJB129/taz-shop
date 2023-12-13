@@ -1,10 +1,7 @@
 body{
   background-image: url(./images/smoke.jpg);
   color: white;
-<<<<<<<<< Temporary merge branch 1
-=========
   align-items: center;
->>>>>>>>> Temporary merge branch 2
 }
 
 .cards__container{
