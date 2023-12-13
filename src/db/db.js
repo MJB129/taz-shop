@@ -5,6 +5,7 @@ import flowertestpicImg from "../images/flowertestpic.jpg";
 import shakeImg from "../images/shake.jpg";
 import shroomsImg from "../images/shrooms.jpg";
 import smallsImg from "../images/smalls.jpg";
+import burrprintbgImg from "../images/burrprint-bg.png";
 
 export function getData() {
   return [
