@@ -8,20 +8,21 @@
   justify-content: space-between;
   width: 150px;
   height: 250px;
-  border: 2px solid var(--primary-color);
+  border: 4px solid var(--primary-color);
   padding: 0.5rem 0.3rem;
   margin: 13px 10px;
   position: relative;
-  border-radius: 5px;
+  border-radius: 15px;
 }
 
 .card__title {
   font-weight: 400;
   text-align: center;
+  color:#63ff73;
 }
 
 .card__title .card__price {
-  font-weight: bold;
+  font-weight: bold
 }
 
 .image__container {
