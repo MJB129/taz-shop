@@ -1,6 +1,7 @@
 body{
   background-image: url(./images/smoke.jpg);
   color: white;
+  align-items: center;
 }
 
 .cards__container{
