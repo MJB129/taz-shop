@@ -47,17 +47,19 @@ function App() {
   };
 
   return (
-    <>
-      <h1 className="heading">Menu</h1>
-      <Cart cartItems={cartItems} onCheckout={onCheckout}/>
-      <div className="cards__container">
-        {buds.map((bud) => {
-          return (
-            <Card bud={bud} key={bud.id} onAdd={onAdd} onRemove={onRemove} />
-          );
-        })}
-      </div>
-    </>
+    <div>
+      <tele>
+        <h1 className="heading">Welcome to Taz's Shop</h1>        
+        <div className="cards__container">
+          {buds.map((bud) => {
+            return (
+              <Card bud={bud} key={bud.id} onAdd={onAdd} onRemove={onRemove} />
+            );
+          })}
+        </div>
+        <Cart cartItems={cartItems} onCheckout={onCheckout}/>
+      </tele>
+    </div>
   );
 }
 
