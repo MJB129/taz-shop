@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import "./App.css";
 import Card from "./Components/Card/Card";
 import Cart from "./Components/Cart/Cart";
@@ -47,19 +47,21 @@ function App() {
   };
 
   return (
-    <div>
-      <tele>
-        <h1 className="heading">Welcome to Taz's Shop</h1>        
-        <div className="cards__container">
-          {buds.map((bud) => {
-            return (
-              <Card bud={bud} key={bud.id} onAdd={onAdd} onRemove={onRemove} />
-            );
-          })}
-        </div>
-        <Cart cartItems={cartItems} onCheckout={onCheckout}/>
-      </tele>
-    </div>
+    <React.Fragment>
+      <div>
+        <tele>
+          <h1 className="heading">Welcome to Taz's Shop</h1>        
+          <div className="cards__container">
+            {buds.map((bud) => {
+              return (
+                <Card bud={bud} key={bud.id} onAdd={onAdd} onRemove={onRemove} />
+              );
+            })}
+          </div>
+          <Cart cartItems={cartItems} onCheckout={onCheckout}/>
+        </tele>
+      </div>
+    </React.Fragment>
   );
 }
 
